@@ -1,0 +1,234 @@
+
+
+nav, div{
+
+display: flex;
+flex-direction: column;
+
+}
+
+
+.logo{
+
+	color: black;
+	font-weight: bold;
+}
+
+body {
+
+	background-color: #f9fafc;
+	font-weight: 800px;
+	font-family: "Open Sans";
+
+}
+
+
+a {
+	color: #69696a;
+	text-decoration: none;
+	margin: 10px;
+
+}
+
+.hire{
+
+	border-radius: 80px 80px 80px 80px;
+	color: #f9fafc;
+	padding: 10px 20px;
+	background-color: black;
+	text-align: center;
+}
+
+
+p{
+	
+	border-left: 2px solid #69696a;
+	height: 130px;
+	padding-left: 20px;
+
+
+}
+
+footer{
+	border-radius: 80px 80px 80px 80px;
+	color: #f9fafc;
+	padding: 10px 20px;
+	background-color: black;
+	margin: 50px auto;
+	text-align: center;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+	nav, div{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+
+footer{
+	
+	border-radius: 80px 80px 80px 80px;
+	color: #f9fafc;
+	padding: 10px 20px;
+	width: 14%;
+	margin: 100px auto;
+
+}
+
+
+
+p{
+
+	width: 50%;
+}
+
+.hire{
+
+	margin-top: 0px;
+}
+
+.circle{
+	width: 300px;
+	height: 300px; 
+	border-radius: 50%;
+	background-color: rgba(247,136,167,0.6);
+	justify-content: flex-end;
+	margin-left: 80px;	
+	position: relative;
+
+}
+
+
+.circle1{
+	width: 170px;
+	height: 170px; 
+	border-radius: 50%;
+	background-color: rgba(207,130,213,0.6);
+	position: absolute;
+	top: 27px;
+	right: -109px;
+}
+
+
+
+.circle2{
+	background-color: rgba(247,193,162,0.7);
+	width: 210px;
+	height: 210px; 
+	border-radius: 50%;
+	position: absolute;
+	top: 166px;
+	right: -102px;
+}
+
+
+}
+
+/*body {
+
+	background-color: #f9fafc;
+	font-weight: 800px;
+	font-family: "Open Sans";
+
+}
+
+
+p{
+	width: 50%;
+	border-left: 2px solid #69696a;
+	height: 130px;
+	padding-left: 20px;
+
+
+}
+
+header{
+
+	color: #69696a;
+}
+
+
+nav {
+	
+	display:inline;
+	float: right;	
+}
+
+h1{
+	padding-top: 100px; 
+	clear: both;
+}
+
+a{
+	color: #69696a;
+	text-decoration: none;
+	margin: 10px;
+
+}
+
+.hire{
+
+	border-radius: 80px 80px 80px 80px;
+	color: #f9fafc;
+	padding: 10px 20px;
+	background-color: black;
+}
+
+
+.circle{
+	width: 300px;
+	height: 300px; 
+	border-radius: 50%;
+	background-color: rgba(247,136,167,0.6);
+	justify-content: flex-end;
+	margin-left: 80px;	
+	position: relative;
+
+}
+
+
+.circle1{
+	width: 170px;
+	height: 170px; 
+	border-radius: 50%;
+	background-color: rgba(207,130,213,0.6);
+	position: absolute;
+	top: 27px;
+	right: -109px;
+}
+
+
+
+.circle2{
+	background-color: rgba(247,193,162,0.7);
+	width: 210px;
+	height: 210px; 
+	border-radius: 50%;
+	position: absolute;
+	top: 166px;
+	right: -102px;
+}
+
+div{
+
+display: flex;
+}
+
+
+footer{
+	border-radius: 80px 80px 80px 80px;
+	color: #f9fafc;
+	padding: 10px 20px;
+	background-color: black;
+	position:absolute;
+	bottom:0;
+ 	right: 50%;
+
+}
+*/
