@@ -1,8 +1,14 @@
 
 
-nav, div{
+nav, .nav{
 display: flex;
 flex-direction: column;
+}
+
+div {
+display: flex;
+align-items: flex-start;
+
 }
 
 .logo{
@@ -30,12 +36,13 @@ a {
 	padding: 10px 20px;
 	background-color: black;
 	text-align: center;
+	margin-left: 0;
 }
 
 
 p{
 	border-left: 2px solid #69696a;
-	height: 130px;
+	
 	padding-left: 20px;
 }
 
@@ -52,12 +59,14 @@ footer{
 
 @media only screen and (min-width: 768px) {
 
-	nav, div{
+nav, .nav{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 
 	}
+
+
 
 
 footer{	
@@ -83,7 +92,9 @@ p{
 	justify-content: flex-end;
 	margin-left: 80px;	
 	position: relative;
-	}
+	left: 140px;
+
+	}	
 
 
 .circle1{
